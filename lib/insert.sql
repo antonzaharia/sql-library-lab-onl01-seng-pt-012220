@@ -1,3 +1,45 @@
-INSERT INTO series (title, author_id, subgenre_id) VALUES ("La Casa del Papel", 1 , 1);
-INSERT INTO series (title, author_id, subgenre_id) VALUES ("Prison Break", 1 , 2);
-INSERT INTO books (title, year, series_id) VALUES ("Book1", 1995, 1);
+INSERT INTO series (title, author_id, subgenre_id)
+VALUES (null, null, null),
+(null, null, null);
+
+INSERT INTO subgenres (name)
+VALUES (null), (null);
+
+INSERT INTO authors (name)
+VALUES (null), (null);
+
+INSERT INTO books (title, year, series_id)
+VALUES (null, null, null),
+(null, null, null),
+(null, null, null),
+(null, null, null),
+(null, null, null),
+(null, null, null);
+
+INSERT INTO characters (name, motto, species, author_id, series_id)
+VALUES (null, null, null, null, null),
+(null, null, null, null, null),
+(null, null, null, null, null),
+(null, null, null, null, null),
+(null, null, null, null, null),
+(null, null, null, null, null),
+(null, null, null, null, null),
+(null, null, null, null, null);
+
+INSERT INTO character_books (book_id, character_id)
+VALUES (null, null),
+(null, null),
+(null, null),
+(null, null),
+(null, null),
+(null, null),
+(null, null),
+(null, null),
+(null, null),
+(null, null),
+(null, null),
+(null, null),
+(null, null),
+(null, null),
+(null, null),
+(null, null);
