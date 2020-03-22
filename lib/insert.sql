@@ -17,14 +17,14 @@ VALUES (null, null, null),
 (null, null, null);
 
 INSERT INTO characters (name, motto, species, author_id, series_id)
-VALUES ("Character1", "Motto", "Specie", 1, 2),
-(null, null, null, 2, 1),
-(null, null, null, 1, 2),
-(null, null, null, 2, 1),
-(null, null, null, 1, 2),
-(null, null, null, 2, 1),
-(null, null, null, 1, 2),
-(null, null, null, 2, 1);
+VALUES ("Character1", "Motto1", "Specie1", 1, 2),
+("Character1", "Motto1", "Specie1", 2, 1),
+("Character2", "Motto2", "Specie2", 1, 2),
+("Character3", "Motto3", "Specie3", 2, 1),
+("Character4", "Motto4", "Specie4", 1, 2),
+("Character5", "Motto5", "Specie5", 2, 1),
+("Character6", "Motto6", "Specie6", 1, 2),
+("Character7", "Motto7", "Specie7", 2, 1);
 
 INSERT INTO character_books (book_id, character_id)
 VALUES (null, null),
